@@ -25,6 +25,7 @@ Esta guía corresponde a **Qverse 0.3.26 (31)** y al commit de compilación `ed1
 - La beta pasó las pruebas Swift de recepción y envío, y el flujo del formulario de envío en el simulador de iPhone.
 - La firma de referencia de dos entradas se verificó con OpenSSL. El cliente Swift de la beta 0.3.24 (27) también completó el recorrido de envío y confirmación en un nodo Qubitcoin regtest aislado.
 - Apple procesó la compilación y la asignó al grupo interno de TestFlight.
-- Siguen pendientes la auditoría independiente y las pruebas físicas de recuperación, biometría, cámara y envío. Haz las pruebas de fondos en regtest con claves desechables.
+- El usuario confirmó que pudo enviar y recibir QTC en un iPhone físico. El reporte no incluía el número de compilación.
+- Siguen pendientes la auditoría independiente y las pruebas físicas de recuperación, biometría y cámara. Para repetir el flujo en un entorno controlado, usa regtest con claves desechables.
 
 Si encuentras un problema, compártelo en privado con la persona que te dio acceso a la beta. Indica el commit, la pantalla o el archivo afectado y los pasos para reproducirlo con datos de prueba. Mantén fuera del informe las claves reales, contraseñas y copias de seguridad.

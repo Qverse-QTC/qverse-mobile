@@ -24,7 +24,7 @@ La firma se realiza en el iPhone. Para consultar la red se usan direcciones púb
 
 **Qverse 0.3.26 (31)** está disponible para el grupo interno de TestFlight. La compilación salió del commit `ed1736d38c42023ea8a36e1bfa21312ff56d4e8a` del repositorio de publicación.
 
-La beta pasó pruebas Swift de recepción y envío y un recorrido de envío en el simulador. En una beta anterior se verificó un envío de dos entradas y su confirmación en un nodo Qubitcoin regtest aislado. Quedan pendientes una revisión de seguridad independiente y probar la recuperación, biometría, cámara y envío de principio a fin desde un iPhone físico. [Alcance de las pruebas](SECURITY.md#estado-de-verificación)
+El usuario de la beta confirmó el envío y la recepción de QTC en un iPhone físico. También pasaron las pruebas Swift y el recorrido de envío en simulador. Quedan pendientes la auditoría independiente y las pruebas físicas de recuperación, biometría y cámara. [Alcance de las pruebas](SECURITY.md#estado-de-verificación)
 
 El código de ese commit y la invitación de TestFlight se entregan por separado a quien vaya a revisar o probar la beta.
 
